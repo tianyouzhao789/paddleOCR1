@@ -76,7 +76,7 @@ False
 
 &ensp;&ensp;&ensp;&ensp;初次运行时，paddleocr会自动下载并使用PaddleOCR的PP-OCRv2轻量级模型。
 使用安装好的paddleocr 以12.jpg为输入图像，将得到以下预测结果：
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;![result.png](result.png)
+![result.png](result.png)#pic_center;
 ```python
 [2024/02/03 16:11:03] ppocr INFO: **********D:/mycode/one-repo/doc/imgs/12.jpg**********
 [2024/02/03 16:11:04] ppocr INFO: [[74.0, 554.0], [428.0, 542.0], [429.0, 571.0], [75.0, 582.0]]
