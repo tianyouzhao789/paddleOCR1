@@ -1,5 +1,5 @@
 # trying-paddleOCR
-## 这是我第一次尝试运行paddleOCR，下面你是三个步骤
+## 这是我第一次尝试运行paddleOCR，下面是三个主要步骤
 1、安装paddleocr
 
 2、一行命令运行DB算法得到检测结果
