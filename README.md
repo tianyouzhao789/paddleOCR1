@@ -64,7 +64,7 @@ False
 ```
 将`if not dt_boxes:`改为`if not dt_boxes.all():`，这样就可以解决这个问题了。
 ```python
-                if not dt_boxes.all():
+                if dt_boxes.size == 0 or not dt_boxes.any():
                     ocr_res.append(None)
                     continue
                 tmp_res = [box.tolist() for box in dt_boxes]
