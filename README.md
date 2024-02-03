@@ -71,6 +71,8 @@ False
                 ocr_res.append(tmp_res)
             return ocr_res
 ```
+另外一个解决办法是把paddleocr版本降到2.6.0.1就没问题了。
+
 初次运行时，paddleocr会自动下载并使用PaddleOCR的PP-OCRv2轻量级模型。
 使用安装好的paddleocr 以12.jpg为输入图像，将得到以下预测结果：
 ![12.jpg](12.jpg)
@@ -106,7 +108,9 @@ os.environ['KMP_DUPLICATE_LIB_OK']='True'
 另一种方法是在`C:\Users\Zhaotianyou\.conda\envs\`路径下搜索`libiomp5md.dll`，会出现两个相同的文件：
 ![img.png](img.png)
 移除第二个文件，然后再次运行程序，就可以解决这个问题了。
+
 第二个文件路径为：
 `C:\Users\Zhaotianyou\.conda\envs\paddle\Library\bin`
+
 移动至：
 `C:\Users\Zhaotianyou\Desktop`
